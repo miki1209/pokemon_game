@@ -1,0 +1,88 @@
+@charset "utf-8";
+
+.title {
+    font-size: 30px;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.main {
+    max-width: 960px;
+    margin: auto;
+}
+
+.main .poke-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: left;
+}
+
+.main .poke-box1 {
+    margin-bottom: 50px;
+}
+
+.main .poke-box .poke {
+}
+
+.main .poke-box .poke .img-margin{
+    margin-bottom: 10px;
+}
+
+.main .poke-box .poke .title-name {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.main .poke-box .poke p{
+    margin-bottom: 5px;
+}
+
+.main .poke-box .poke .btn-box{
+    text-align: center;
+}
+
+.main .poke-box .poke .btn-box .check-btn{
+    padding: 7px 100px;
+}
+
+.main .poke-box .poke .skill-list {
+    margin-bottom: 5px;
+}
+
+.main .poke-box .poke .skill-list .{
+    margin-bottom: 5px;
+}
+
+.main .poke-box .poke .skill-list p{
+    margin-bottom: 5px;
+}
+
+.main .poke-box .poke .skill-list .skill-box1 {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 5px;
+}
+
+.main .poke-box .poke .skill-list .skill-box1 li{
+    margin-right: 5px;
+}
+
+.main .poke-box .poke .skill-list .skill-box1 li:last-child{
+    margin-right: 0;
+}
+
+.main .poke-box .poke .skill-list .skill-box2 {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+}
+
+.main .poke-box .poke .skill-list .skill-box2 li{
+    margin-right: 37px;
+}
+
+.main .poke-box .poke .skill-list .skill-box2 li:last-child{
+    margin-right: 0;
+}
+
