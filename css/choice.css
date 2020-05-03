@@ -7,7 +7,7 @@
 }
 
 .main {
-    max-width: 960px;
+    max-width: 230px;
     margin: auto;
 }
 
@@ -19,7 +19,6 @@
 }
 
 .main .poke-box1 {
-    margin-bottom: 50px;
 }
 
 .main .poke-box .poke {
@@ -78,11 +77,11 @@
     margin-bottom: 5px;
 }
 
-.main .poke-box .poke .skill-list .skill-box1 li{
+.main .poke-box .poke .skill-list .skill-box1 p{
     margin-right: 5px;
 }
 
-.main .poke-box .poke .skill-list .skill-box1 li:last-child{
+.main .poke-box .poke .skill-list .skill-box1 p:last-child{
     margin-right: 0;
 }
 
@@ -92,11 +91,11 @@
     margin-bottom: 10px;
 }
 
-.main .poke-box .poke .skill-list .skill-box2 li{
+.main .poke-box .poke .skill-list .skill-box2 p{
     margin-right: 37px;
 }
 
-.main .poke-box .poke .skill-list .skill-box2 li:last-child{
+.main .poke-box .poke .skill-list .skill-box2 p:last-child{
     margin-right: 0;
 }
 
