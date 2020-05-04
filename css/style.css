@@ -9,6 +9,7 @@
 .main {
     max-width: 960px;
     margin: auto;
+    margin-bottom: 50px;
 }
 
 .main .poke-box {
