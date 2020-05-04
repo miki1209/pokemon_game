@@ -59,6 +59,10 @@
 	color: #fff;
 }
 
+.main .poke-box .poke .btn-no{
+    margin-top: 20px;
+}
+
 .main .poke-box .poke .skill-list {
     margin-bottom: 5px;
 }
@@ -78,11 +82,7 @@
 }
 
 .main .poke-box .poke .skill-list .skill-box1 p{
-    margin-right: 5px;
-}
-
-.main .poke-box .poke .skill-list .skill-box1 p:last-child{
-    margin-right: 0;
+    width: 145px;
 }
 
 .main .poke-box .poke .skill-list .skill-box2 {
@@ -92,10 +92,6 @@
 }
 
 .main .poke-box .poke .skill-list .skill-box2 p{
-    margin-right: 37px;
-}
-
-.main .poke-box .poke .skill-list .skill-box2 p:last-child{
-    margin-right: 0;
+    width: 145px;
 }
 
