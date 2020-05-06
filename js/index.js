@@ -6,20 +6,17 @@ var hoge = [
         "id": 2,
         "name": "みきお",
         "age": 26,
-        "sex": "男"
     },
     {
         "id": 1,
         "name": "みき",
         "age": 22,
-        "sex": "男"
     },
     {
         "id": 3,
         "name": "みきまる",
         "age": 26,
-        "sex": "男"
-    },
+    }
 ]
 
 //引数を2つ以上使用したidの呼び出し方法
@@ -78,17 +75,17 @@ console.log(hoge5);
 
 //ここからポケモンGAME
 //  1.p1と2pの選択をどうわけるのか...
-//  -リンク先にパラメータを付けて分けるやり方があるっぽい
-//  player1はp1とする
-//  ループするっぽいから、ループを調査する必要がある。
-//  URLを取得メソッド「location」これ使う
+//  　-リンク先にパラメータを付けて分けるやり方があるっぽい
+//  2.player1はp1とする
+//  3.ループするっぽいから、ループを調査する必要がある。
+//  4.URLを取得メソッド「location」これ使う
 
-
+//URLを取得
 var path = location.search;
 
 console.log(path);
 
+//URLにパラメータを追加する...?
 var player1IndividualId = path.split("?p1=")[1]
-//変数を定義しているためlocation.search;はpathになる
-
+//変数を定義しているためlocation.searchはpathになる
 
