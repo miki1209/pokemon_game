@@ -1,152 +1,146 @@
 [
-    // リザードン
     {
         "id": 1,
         "name": "かえんほうしゃ",
-        "type": "ほのお",
+        "typeID": 1 ,
         "power": 90
     },
     {
         "id": 2,
         "name": "ほのおのパンチ",
-        "type": "ほのお",
+        "typeID": 1,
         "power": 75
     },
     {
         "id": 3,
         "name": "ほのおのうず",
-        "type": "ほのお",
+        "typeID": 1,
         "power": 75
     },
     {
         "id": 4,
         "name": "ブラストバーン",
-        "type": "ほのお",
+        "typeID": 1,
         "power": 120
     },
-    // フシギバナ
     {
         "id": 5,
         "name": "ギガドレイン",
-        "type": "くさ",
+        "typeID": 2,
         "power": 90
     },
     {
         "id": 6,
         "name": "はっぱカッター",
-        "type": "くさ",
+        "typeID": 2,
         "power": 75
     },
     {
         "id": 7,
         "name": "すいとる",
-        "type": "くさ",
+        "typeID": 2,
         "power": 60
     },
     {
         "id": 8,
         "name": "ハードプラント",
-        "type": "くさ",
+        "typeID": 2,
         "power": 120
     },
-    // カメックス
     {
         "id": 9,
         "name": "ハイドロポンプ",
-        "type": "みず",
+        "typeID": 3,
         "power": 100
     },
     {
         "id": 10,
         "name": "みずてっぽう",
-        "type": "みず",
+        "typeID": 3,
         "power": 50
     },
     {
         "id": 11,
         "name": "なみのり",
-        "type": "みず",
+        "typeID": 3,
         "power": 80
     },
     {
         "id": 12,
         "name": "ハイドロカノン",
-        "type": "みず",
+        "typeID": 3,
         "power": 120
     },
-    // ピカチュウ
     {
         "id": 13,
         "name": "10万ボルト",
-        "type": "でんき",
+        "typeID": 4,
         "power": 90
     },
     {
         "id": 14,
         "name": "かみなり",
-        "type": "でんき",
+        "typeID": 4,
         "power": 80
     },
     {
         "id": 15,
         "name": "エレキボール",
-        "type": "でんき",
+        "typeID": 4,
         "power": 70
     },
     {
         "id": 16,
         "name": "ボルテッカー",
-        "type": "でんき",
+        "typeID": "でんき",
         "power": 120
     },
-    // スピアー
     {
         "id": 17,
         "name": "むしのさざめき",
-        "type": "むし",
+        "typeID": 5,
         "power": 90
     },
     {
         "id": 18,
         "name": "みだれずき",
-        "type": "むし",
+        "typeID": 5,
         "power": 70
     },
     {
         "id": 19,
         "name": "ぎんいろのかぜ",
-        "type": "むし",
+        "typeID": 5,
         "power": 100
     },
     {
         "id": 20,
         "name": "メガホーン",
-        "type": "むし",
+        "typeID": 5,
         "power": 120
     },
-    // ミュウツー
     {
         "id": 21,
         "name": "サイコキネシス",
-        "type": "エスパー",
+        "typeID": 6,
         "power": 100
     },
     {
         "id": 22,
         "name": "サイコカッター",
-        "type": "エスパー",
+        "typeID": 6,
         "power": 80
     },
     {
         "id": 23,
         "name": "ねんりき",
-        "type": "エスパー",
+        "typeID": 6,
         "power": 60
     },
     {
         "id": 24,
         "name": "サイコブレイク",
-        "type": "エスパー",
+        "typeID": 6,
         "power": 120
     },
 ]

@@ -1,38 +1,38 @@
 [
     {
         "id": 1,
-        "type": "ほのお",
+        "typeID": 1,
         "double": "くさ",
         "falf": "みず"
     },
     {
         "id": 2,
-        "type": "くさ",
+        "typeID": 2,
         "double": "みず",
         "falf": "ほのお"
     },
     {
         "id": 3,
-        "type": "みず",
+        "typeID": 3,
         "double": "ほのお",
         "falf": "くさ"
     },
     {
         "id": 4,
-        "type": "でんき",
+        "typeID": 4,
         "double": "みず",
         "falf": "くさ"
     },
     {
         "id": 5,
-        "type": "むし",
+        "typeID": 5,
         "double": "エスパー",
         "falf": "ほのお"
     },
     {
         "id": 6,
-        "type": "エスパー",
+        "typeID": 6,
         "double": "むし",
         "falf": "でんき"
-    },
+    }
 ]

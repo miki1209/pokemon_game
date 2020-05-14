@@ -8,4 +8,4 @@ $(function(){
       }).then(function(deta){
         console.log(data);
     })
-    });
+});
