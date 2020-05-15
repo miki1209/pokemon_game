@@ -1,146 +1,146 @@
 [
     {
-        "id": 1,
-        "name": "かえんほうしゃ",
-        "typeID": 1 ,
-        "power": 90
+        "skill_id": 1,
+        "skill_name": "かえんほうしゃ",
+        "type_id": 1 ,
+        "skill_power": 90
     },
     {
-        "id": 2,
-        "name": "ほのおのパンチ",
-        "typeID": 1,
-        "power": 75
+        "skill_id": 2,
+        "skill_name": "ほのおのパンチ",
+        "type_id": 1,
+        "skill_power": 75
     },
     {
-        "id": 3,
-        "name": "ほのおのうず",
-        "typeID": 1,
-        "power": 75
+        "skill_id": 3,
+        "skill_name": "ほのおのうず",
+        "type_id": 1,
+        "skill_power": 75
     },
     {
-        "id": 4,
-        "name": "ブラストバーン",
-        "typeID": 1,
-        "power": 120
+        "skill_id": 4,
+        "skill_name": "ブラストバーン",
+        "type_id": 1,
+        "skill_power": 120
     },
     {
-        "id": 5,
-        "name": "ギガドレイン",
-        "typeID": 2,
-        "power": 90
+        "skill_id": 5,
+        "skill_name": "ギガドレイン",
+        "type_id": 2,
+        "skill_power": 90
     },
     {
-        "id": 6,
-        "name": "はっぱカッター",
-        "typeID": 2,
-        "power": 75
+        "skill_id": 6,
+        "skill_name": "はっぱカッター",
+        "type_id": 2,
+        "skill_power": 75
     },
     {
-        "id": 7,
-        "name": "すいとる",
-        "typeID": 2,
-        "power": 60
+        "skill_id": 7,
+        "skill_name": "すいとる",
+        "type_id": 2,
+        "skill_power": 60
     },
     {
-        "id": 8,
-        "name": "ハードプラント",
-        "typeID": 2,
-        "power": 120
+        "skill_id": 8,
+        "skill_name": "ハードプラント",
+        "type_id": 2,
+        "skill_power": 120
     },
     {
-        "id": 9,
-        "name": "ハイドロポンプ",
-        "typeID": 3,
-        "power": 100
+        "skill_id": 9,
+        "skill_name": "ハイドロポンプ",
+        "type_id": 3,
+        "skill_power": 100
     },
     {
-        "id": 10,
-        "name": "みずてっぽう",
-        "typeID": 3,
-        "power": 50
+        "skill_id": 10,
+        "skill_name": "みずてっぽう",
+        "type_id": 3,
+        "skill_power": 50
     },
     {
-        "id": 11,
-        "name": "なみのり",
-        "typeID": 3,
-        "power": 80
+        "skill_id": 11,
+        "skill_name": "なみのり",
+        "type_id": 3,
+        "skill_power": 80
     },
     {
-        "id": 12,
-        "name": "ハイドロカノン",
-        "typeID": 3,
-        "power": 120
+        "skill_id": 12,
+        "skill_name": "ハイドロカノン",
+        "type_id": 3,
+        "skill_power": 120
     },
     {
-        "id": 13,
-        "name": "10万ボルト",
-        "typeID": 4,
-        "power": 90
+        "skill_id": 13,
+        "skill_name": "10万ボルト",
+        "type_id": 4,
+        "skill_power": 90
     },
     {
-        "id": 14,
-        "name": "かみなり",
-        "typeID": 4,
-        "power": 80
+        "skill_id": 14,
+        "skill_name": "かみなり",
+        "type_id": 4,
+        "skill_power": 80
     },
     {
-        "id": 15,
-        "name": "エレキボール",
-        "typeID": 4,
-        "power": 70
+        "skill_id": 15,
+        "skill_name": "エレキボール",
+        "type_id": 4,
+        "skill_power": 70
     },
     {
-        "id": 16,
-        "name": "ボルテッカー",
-        "typeID": "でんき",
-        "power": 120
+        "skill_id": 16,
+        "skill_name": "ボルテッカー",
+        "type_id": "でんき",
+        "skill_power": 120
     },
     {
-        "id": 17,
-        "name": "むしのさざめき",
-        "typeID": 5,
-        "power": 90
+        "skill_id": 17,
+        "skill_name": "むしのさざめき",
+        "type_id": 5,
+        "skill_power": 90
     },
     {
-        "id": 18,
-        "name": "みだれずき",
-        "typeID": 5,
-        "power": 70
+        "skill_id": 18,
+        "skill_name": "みだれずき",
+        "type_id": 5,
+        "skill_power": 70
     },
     {
-        "id": 19,
-        "name": "ぎんいろのかぜ",
-        "typeID": 5,
-        "power": 100
+        "skill_id": 19,
+        "skill_name": "ぎんいろのかぜ",
+        "type_id": 5,
+        "skill_power": 100
     },
     {
-        "id": 20,
-        "name": "メガホーン",
-        "typeID": 5,
-        "power": 120
+        "skill_id": 20,
+        "skill_name": "メガホーン",
+        "type_id": 5,
+        "skill_power": 120
     },
     {
-        "id": 21,
-        "name": "サイコキネシス",
-        "typeID": 6,
-        "power": 100
+        "skill_id": 21,
+        "skill_name": "サイコキネシス",
+        "type_id": 6,
+        "skill_power": 100
     },
     {
-        "id": 22,
-        "name": "サイコカッター",
-        "typeID": 6,
-        "power": 80
+        "skill_id": 22,
+        "skill_name": "サイコカッター",
+        "type_id": 6,
+        "skill_power": 80
     },
     {
-        "id": 23,
-        "name": "ねんりき",
-        "typeID": 6,
-        "power": 60
+        "skill_id": 23,
+        "skill_name": "ねんりき",
+        "type_id": 6,
+        "skill_power": 60
     },
     {
-        "id": 24,
-        "name": "サイコブレイク",
-        "typeID": 6,
-        "power": 120
-    },
+        "skill_id": 24,
+        "skill_name": "サイコブレイク",
+        "type_id": 6,
+        "skill_power": 120
+    }
 ]
