@@ -29,28 +29,17 @@
 
 $(function(){
 
-$.ajax({
-  url: 'json/pokemon.json',
-  type: 'get',
-  dataType: 'json'
-  }).done(function(data){
-    console.log(data);
-  }).fail(function(){
-    
-  })
-
-  json = "json/pokemon.json";
-  target = $('#list');
-  $.getJSON(json, function(data){
-      for(var n in data) {
-          var text = '<li>';
-          if (data[n].url){
-              line = '<a href="'+data[n].url+'" target="_blank"><span>'+data[n].name+'</span></a>';
-          }else{
-              line = '<i><span>'+data[n].name+'</span></i>';
-          }
-          text = text+line+'</li>';
-          $(target).append(text);
-      }
-  });
+  $.ajax({
+    url: 'json/pokemon.json',
+    type: 'get',
+    dataType: 'json'
+  }).then(
+    function (data,dataType){
+      console.log(data);
+      for (var i = 0; data.length > i  ;i++){
+        console.log(i);}
+    },
+    function (){
+      
+    });
 });
