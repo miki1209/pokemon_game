@@ -120,6 +120,23 @@ var player1IndividualId = path.split("?p1=")[1]
 //   })
 // };
 
+// $(function(){
+
+//   $.ajax({
+//     url: 'json/pokemon_list.json',
+//     type: 'get',
+//     dataType: 'json'
+//   }).then(
+//     function (data,dataType){
+//       console.log(data);
+//       for (var i = 0; data.length > i  ;i++){
+//         console.log(i);}
+//     },
+//     function (){
+      
+//     });
+// });
+
 $(function(){
 
   $.ajax({
@@ -129,8 +146,9 @@ $(function(){
   }).then(
     function (data,dataType){
       console.log(data);
-      for (var i = 0; data.length > i  ;i++){
-        console.log(i);}
+      for (var i in data){
+        $("#js-list").append("<img>" + data[i].image + "</img>");
+    }
     },
     function (){
       
