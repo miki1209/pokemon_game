@@ -147,10 +147,16 @@ $(function(){
     function (data,dataType){
       console.log(data);
       for (var i in data){
-        $("#js-list").append("<img>" + data[i].image + "</img>");
+        $('#js-list').append('<img src="' + data[i].image + '">');
     }
     },
     function (){
       
     });
 });
+
+
+var p = "../xxx.png";
+var html = '<img src="' + p + '">';
+// var html = <img src="../xxx.png">;
+console.log(html);
