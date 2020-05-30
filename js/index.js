@@ -147,7 +147,7 @@ $(function(){
     function (data,dataType){
       console.log(data);
       for (var i in data){
-        $('#js-list').append('<img src="' + data[i].image + '">');
+        $('#js-list').append('<li><img src="' + data[i].image + '"></li>');
     }
     },
     function (){
