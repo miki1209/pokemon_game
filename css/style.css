@@ -19,6 +19,13 @@
     text-align: left;
 }
 
+.main #js-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    text-align: left;
+}
+
 .main .poke-box1 {
     margin-bottom: 50px;
 }
