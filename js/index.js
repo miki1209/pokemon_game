@@ -148,8 +148,16 @@ $(function(){
       for (var i in data){
         $('#js-list').append('<li><img src="' + data[i].image + '"></li>');
       }
-    });
+    })
+    .then(
+      function (data,dataType){
+        for (var i in data){
+          $('.main').append('<p>' + data[i].name + '</p>');
+        }
+      });
 });
+
+
 
 
 
