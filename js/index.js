@@ -146,16 +146,24 @@ $(function(){
   }).then(
     function (data,dataType){
       for (var i in data){
-        $('#js-list').append('<li><img src="' + data[i].image + '"></li>');
+        $('#js-list').append('<li class="list-box"><div class="poke-box"><h2 class="name-title">' + data[i].name + '</h2>' + '</div>' + '<img src="' + data[i].image + '">' + '<div class="link-box"><a href="" class="link-item">このポケモンにする</a></div>' + '</li>');
       }
-    })
-    .then(
-      function (data,dataType){
-        for (var i in data){
-          $('.main').append('<p>' + data[i].name + '</p>');
-        }
-      });
+    });
 });
+
+// $(function(){
+
+//   $.ajax({
+//     url: 'json/skill.json',
+//     type: 'get',
+//     dataType: 'json'
+//   }).then(
+//     function (data,dataType){
+//       for (var i in data){
+//         $('.poke-box').append('<p>' + data[i].skill_name + '</p>');
+//       }
+//     });
+// });
 
 
 

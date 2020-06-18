@@ -12,13 +12,6 @@
     margin-bottom: 50px;
 }
 
-.main .poke-box {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    text-align: left;
-}
-
 .main #js-list {
     display: flex;
     flex-wrap: wrap;
@@ -26,77 +19,35 @@
     text-align: left;
 }
 
-.main .poke-box1 {
-    margin-bottom: 50px;
+.main #js-list .list-box {
+    margin-bottom: 30px;
 }
 
-.main .poke-box .poke {
-}
-
-.main .poke-box .poke .img-margin{
-    margin-bottom: 10px;
-}
-
-.main .poke-box .poke .title-name {
-    font-size: 20px;
-    margin-bottom: 5px;
-}
-
-.main .poke-box .poke p{
-    margin-bottom: 5px;
-}
-
-.main .poke-box .poke .btn-box{
-    text-align: center;
-}
-
-.main .poke-box .poke .btn-box .link-item{
+.main #js-list .list-box .link-box {
     display: block;
-	width: 100%;
+    width: 90%;
 	padding: 12px;
 	text-align: center;
     text-decoration: none;
     font-weight: bold;
-	color: #ffa600;
 	border: 2px solid #ffa600;
 	border-radius: 3px;
 	transition: .4s;
 }
 
-.main .poke-box .poke .btn-box .link-item:hover{
-    background: #ffa600;
-	color: #fff;
+.main #js-list .list-box .link-box:hover {
+    background-color: #ffa600;
 }
 
-.main .poke-box .poke .skill-list {
-    margin-bottom: 5px;
+.main #js-list .list-box .link-box .link-item {
+    color: #ffa600;
 }
 
-.main .poke-box .poke .skill-list .{
-    margin-bottom: 5px;
+.main #js-list .list-box .link-box .link-item:hover {
+    color: #fff;
 }
 
-.main .poke-box .poke .skill-list p{
-    margin-bottom: 5px;
+.main #js-list .list-box .poke-box .name-title {
+    font-size: 20px;
+    text-align: center;
 }
-
-.main .poke-box .poke .skill-list .skill-box1 {
-    display: flex;
-    flex-wrap: wrap;
-    margin-bottom: 5px;
-}
-
-.main .poke-box .poke .skill-list .skill-box1 p{
-    width: 145px;
-}
-
-.main .poke-box .poke .skill-list .skill-box2 {
-    display: flex;
-    flex-wrap: wrap;
-    margin-bottom: 10px;
-}
-
-.main .poke-box .poke .skill-list .skill-box2 p{
-    width: 145px;
-}
-
